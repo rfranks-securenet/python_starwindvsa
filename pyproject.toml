@@ -6,8 +6,6 @@ authors = [
     { name="Richard Franks" }
 ]
 
-requires = ["requests >= 2.32.3"]
-
 [build-system]
 requires = ["setuptools >= 61.0.0"]
 build-backend = "setuptools.build_meta"
