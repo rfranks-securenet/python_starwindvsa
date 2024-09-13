@@ -2,6 +2,11 @@
 name = "starwind_vsa"
 version = "2024.09.1"
 description = "A package for interacting with a Starwind VSA via the REST API"
+authors = [
+    { name="Richard Franks" }
+]
+
+requires = ["requests >= 2.32.3"]
 
 [build-system]
 requires = ["setuptools >= 61.0.0"]
