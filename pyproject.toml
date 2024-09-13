@@ -5,6 +5,9 @@ description = "A package for interacting with a Starwind VSA via the REST API"
 authors = [
     { name="Richard Franks" }
 ]
+dependencies = [
+    "requests >= 2.32.3"
+]
 
 [build-system]
 requires = ["setuptools >= 61.0.0"]
